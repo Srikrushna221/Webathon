@@ -1,0 +1,102 @@
+            body{
+                background-color: lightgrey;
+            }
+           ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#313235;
+  border-radius: 15mm;
+  align-items: center;
+  margin:10px 20px;
+
+}
+
+li {
+  float: left;
+  width: 33.33%;
+  
+  
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+li a {
+  display:block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+td{
+    font-size:x-large;
+    text-align: center;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#313235;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.container{
+    width: 70%;
+    margin: auto auto;
+    /* background-color:white; */
+}
+
+.my-float{
+	margin-top:22px;
+}
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  
+  display: inline-block;
+  padding: 5px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  border-radius: 0.5mm;
+
+}
+
+.hero{
+    background:url(man.jpg) no-repeat center;
+    opacity: 0.9;
+    background-size:cover;
+    height:500px;
+    position:relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+.aboutleft{
+    float: left;width:50%; text-align: center;
+}
